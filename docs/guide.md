@@ -26,14 +26,14 @@ It is **not**:
 
 **CLI / plugin-marketplace route** (preferred):
 ```
-/plugin marketplace add raviteam-web/multi-agent-plugins
+/plugin marketplace add chiragnbjm/multi-agent-claude-plugin
 /plugin install delivery-crew@multi-agent
 ```
 
 **VS Code-panel route**, if `/plugin` isn't available in your panel:
 ```
-git clone <repo-url>
-cd multi-agent-plugins
+git clone https://github.com/chiragnbjm/multi-agent-claude-plugin.git
+cd multi-agent-claude-plugin
 ./install.sh /path/to/your/project
 ```
 

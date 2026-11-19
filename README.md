@@ -7,7 +7,7 @@ mobile framework — see [Stack](#stack) below. See [docs/guide.md](docs/guide.m
 
 ## Install (in any project, inside Claude Code / VS Code)
 ```
-/plugin marketplace add raviteam-web/multi-agent-plugins
+/plugin marketplace add chiragnbjm/multi-agent-claude-plugin
 /plugin install delivery-crew@multi-agent
 ```
 Public repo, so no extra `git` access setup needed.
@@ -15,8 +15,8 @@ Local test without Git: `/plugin marketplace add ./path/to/this/repo`
 
 No `/plugin` support in your VS Code panel? Clone this repo and run `install.sh` instead:
 ```
-git clone https://github.com/raviteam-web/multi-agent-plugins.git
-cd multi-agent-plugins
+git clone https://github.com/chiragnbjm/multi-agent-claude-plugin.git
+cd multi-agent-claude-plugin
 ./install.sh /path/to/your/project
 ```
 It copies the agents/commands straight into that project's `.claude/` folder and writes a version stamp.
